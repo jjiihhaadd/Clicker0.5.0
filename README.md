@@ -13,7 +13,7 @@ Converted to EXE using AUTO_PY_TO_EXE.
 
 A CLI based Auto Clicker.
 
-#CPS SPEED
+# CPS SPEED
 
 Use [ ESC + S ] To set speed.
 
