@@ -5,7 +5,7 @@ A complete Auto Clicker.
 
 That work on mouce button press.
 
-CPS count [ 100+ ] aprox.
+CPS count [ 1 - 500+ ] aprox. The CPS can be different from device Performance.
 
 Coded in Python.
 
@@ -19,9 +19,16 @@ Use [ ESC + S ] To set speed.
 
 Speed is given in sec.
 
-For speed> 0.1  .CPS Will be 10.
+For speed> 0.1  CPS Will be 10+.
 
-For speed> 0.01 .CPS Will be 60~100.
+For speed> 0.01 CPS Will be 60~100.
 
-For speed> 0 .CPS Will be INSANE.
+For speed> 0 CPS Will be INSANE.
 
+# NOTE
+
+The Speed is set to seconds.
+
+1 = 1 sec
+
+0.1 = 0.1 sec
