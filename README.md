@@ -23,12 +23,21 @@ For speed> 0.1  CPS Will be 10+.
 
 For speed> 0.01 CPS Will be 60~100.
 
-For speed> 0 CPS Will be INSANE.
+For speed> 0 CPS Will be INSANE. Please See CAUTION Befor Use
 
 # NOTE
 
 The Speed is set to seconds.
 
-1 = 1 sec
+1 = click every 1 sec
 
-0.1 = 0.1 sec
+0.1 = click every 0.1 sec
+
+0.001 = click every 0.001 sec
+
+# Caution #
+
+If You Use Speed 0 The CPS Will Get INSANE.
+
+Also It Will Cause HIGH CPU Usage !!!
+
