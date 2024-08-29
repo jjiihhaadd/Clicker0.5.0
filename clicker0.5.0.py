@@ -11,7 +11,7 @@ ABT_K = ' + a'
 EXIT_K = ' + x'
 HELP_K = ' + h'
 SPD_K = ' + s'
-SPD_V = 0.0
+SPD_V = 0.1
 
 INTRO = ("      #_Auto_Clicker_# \n\n$ Clicker ON/OFF [ Capslock ] \n$ Help [ ESC + H ] \n$ Set Speed [ ESC + S ] \n$ About [ ESC + A ] \n$ Exit [ ESC + X ] \nTIP: use [ ESC + C] to clear screen !")
 ABOUT = ("\n\n Developer: Tension_IDK [Jihad]\n Coded in Python.\n Converted to EXE using: AUTO_PYTO_EXE.\n")
@@ -54,13 +54,13 @@ while True:
                     if LCS:
                         keyboard.mouse.release('left')
                         print('LEFT Click Stoped')
-                        time.sleep(0.2)
+                        time.sleep(0.3)
                         break
 
                     elif OFF:
                         keyboard.mouse.release('left')
                         print('Clicker OFF')
-                        time.sleep(0.2)
+                        time.sleep(0.3)
                         break
 
                     elif EXIT:
@@ -76,13 +76,13 @@ while True:
                     if RCS:
                         keyboard.mouse.release(RC_K)
                         print('RIGHT Click Stoped')
-                        time.sleep(0.2)
+                        time.sleep(0.3)
                         break
 
                     elif OFF:
                         keyboard.mouse.release('left')
                         print('Clicker OFF')
-                        time.sleep(0.2)
+                        time.sleep(0.3)
                         break
 
                     elif EXIT:
@@ -90,7 +90,7 @@ while True:
 
                 if HELP2:
                     print(HELP_2)
-                    time.sleep(0.2)
+                    time.sleep(0.3)
 
                 elif OFF:
                     print('Clicker OFF')
@@ -99,10 +99,10 @@ while True:
                 elif CLR:
                     os.system('CLS')
                     print(INTRO)
-                    time.sleep(0.2)
+                    time.sleep(0.3)
 
                 elif SPD:
-                    time.sleep(0.2)
+                    time.sleep(0.3)
                     SPD_V = input("Enter the Speed(sec):")
 
                     try:
@@ -111,22 +111,22 @@ while True:
 
                     except ValueError:
                         if not type(SPD_V) is float or int:
-                            SPD_V = 0.0
+                            SPD_V = 0.1
                             print("Please Enter Integer Data!!\nTry again.")
 
                 elif EXIT:
                     exit()
 
             if OFF:
-                time.sleep(0.2)
+                time.sleep(0.3)
                 break
 
         if HELP1:
             print(HELP_1)
-            time.sleep(0.2)
+            time.sleep(0.3)
 
         elif SPD:
-            time.sleep(0.2)
+            time.sleep(0.3)
             SPD_V = input("Enter the Speed(sec):")
 
             try:
@@ -135,17 +135,18 @@ while True:
 
             except ValueError:
                 if not type(SPD_V) is float or int:
-                    SPD_V = 0.0
+                    SPD_V = 0.1
                     print("Please Enter Integer Data!!\nTry again.")
 
         elif CLR:
             os.system('CLS')
             print(INTRO)
-            time.sleep(0.2)
+            time.sleep(0.3)
 
         elif ABT:
             print(ABOUT)
-            time.sleep(0.2)
+            time.sleep(0.3)
 
         elif EXIT:
             exit()
+        
